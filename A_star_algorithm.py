@@ -5,7 +5,7 @@ class Node:
         self.position = position
         self.parent = parent
         self.g = 0  # cost from start node to current node
-        self.h = 0  # heuristic cost from current node to goal node
+        self.h = 0  
         self.f = 0  # total cost (g + h)
 
     def __lt__(self, other):
