@@ -1,5 +1,5 @@
 option_counts = {'A': 0, 'B': 0}  # Initialize counters for options A and B
-num_questions = 5  # Set the number of questions
+num_questions = 5 
 
 
 for i in range(1, num_questions + 1):
