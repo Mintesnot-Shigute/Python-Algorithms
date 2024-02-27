@@ -4,7 +4,7 @@ class Node:
     def __init__(self, position, parent=None):
         self.position = position
         self.parent = parent
-        self.g = 0  # cost from start node to current node
+        self.g = 0  
         self.h = 0  
         self.f = 0  # total cost (g + h)
 
