@@ -54,7 +54,7 @@ def astar(maze, start, end):
 
     return None  # No path found
 
-# Example usage:
+#Example
 maze = [
     [0, 0, 0, 0, 0],
     [0, 1, 1, 0, 0],
