@@ -52,7 +52,7 @@ def astar(maze, start, end):
             if neighbor not in open_set:
                 heapq.heappush(open_set, neighbor)
 
-    return None  # No path found
+    return None  # no path found 
 
 #Example
 maze = [
