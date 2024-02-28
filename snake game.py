@@ -12,7 +12,7 @@ FPS = 15
 # Colors
 WHITE = (255, 255, 255)
 RED = (255, 0, 0)
-GREEN = (0, 255, 255)
+GREEN = (0, 255, 205)
 
 
 window = pygame.display.set_mode((WIDTH, HEIGHT))
