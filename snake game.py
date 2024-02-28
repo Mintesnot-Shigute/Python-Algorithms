@@ -62,7 +62,7 @@ while running:
     else:
         snake.pop()
 
-    # Draw everything
+    
     window.fill(WHITE)
     for segment in snake:
         pygame.draw.rect(window, GREEN, (segment[0], segment[1], SNAKE_SIZE, SNAKE_SIZE))
