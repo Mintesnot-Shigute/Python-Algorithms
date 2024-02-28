@@ -46,7 +46,7 @@ while running:
   
     snake.insert(0, (snake[0][0] + snake_direction[0], snake[0][1] + snake_direction[1]))
 
-    # Check for collisions with walls or itself
+   
     if (
         snake[0][0] < 0
         or snake[0][0] >= WIDTH
