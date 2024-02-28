@@ -43,7 +43,7 @@ while running:
             elif event.key == pygame.K_RIGHT and snake_direction != (-SNAKE_SIZE, 0):
                 snake_direction = (SNAKE_SIZE, 0)
 
-    # Move the snake
+  
     snake.insert(0, (snake[0][0] + snake_direction[0], snake[0][1] + snake_direction[1]))
 
     # Check for collisions with walls or itself
