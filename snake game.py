@@ -56,7 +56,7 @@ while running:
     ):
         running = False
 
-    # Check if snake ate the food
+   
     if snake[0] == food:
         food = (random.randrange(0, WIDTH, SNAKE_SIZE), random.randrange(0, HEIGHT, SNAKE_SIZE))
     else:
