@@ -24,7 +24,7 @@ clock = pygame.time.Clock()
 snake = [(100, 100), (90, 100), (80, 100)]
 snake_direction = (SNAKE_SIZE, 0)
 
-# Initial food position
+
 food = (WIDTH // 2, HEIGHT // 2)
 
 # Game loop
