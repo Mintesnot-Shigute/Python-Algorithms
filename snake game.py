@@ -20,7 +20,7 @@ pygame.display.set_caption("Snake Game")
 
 clock = pygame.time.Clock()
 
-# Snake initial position and direction
+
 snake = [(100, 100), (90, 100), (80, 100)]
 snake_direction = (SNAKE_SIZE, 0)
 
