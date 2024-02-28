@@ -6,7 +6,7 @@ class Graph:
 
     def add_edge(self, u, v):
         self.graph[u].append(v)
-        self.graph[v].append(u)  # Assuming an undirected graph
+        self.graph[v].append(u)  
 
     def dfs(self, start, visited=None):
         if visited is None:
