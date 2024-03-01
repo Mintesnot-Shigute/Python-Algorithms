@@ -1,11 +1,11 @@
 option_counts = {'A': 0, 'B': 0}  # Initialize counters for options A and B
-num_questions = 5  # Set the number of questions
+num_questions = 5 
 
-# Loop through each question
+
 for i in range(1, num_questions + 1):
     response = input(f"Enter response for question {i} (A/B): ").upper()  # Get user input for each question
     if response in option_counts:
-        option_counts[response] += 1  # Increment the count for the selected option
+        option_counts[response] += 1  
 
 # Print the counts
 for option, count in option_counts.items():

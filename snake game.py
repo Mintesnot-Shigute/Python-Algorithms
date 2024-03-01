@@ -12,19 +12,19 @@ FPS = 15
 # Colors
 WHITE = (255, 255, 255)
 RED = (255, 0, 0)
-GREEN = (0, 255, 0)
+GREEN = (0, 255, 205)
 
-# Initialize the game window
+
 window = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Snake Game")
 
 clock = pygame.time.Clock()
 
-# Snake initial position and direction
+
 snake = [(100, 100), (90, 100), (80, 100)]
 snake_direction = (SNAKE_SIZE, 0)
 
-# Initial food position
+
 food = (WIDTH // 2, HEIGHT // 2)
 
 # Game loop
@@ -43,10 +43,10 @@ while running:
             elif event.key == pygame.K_RIGHT and snake_direction != (-SNAKE_SIZE, 0):
                 snake_direction = (SNAKE_SIZE, 0)
 
-    # Move the snake
+  
     snake.insert(0, (snake[0][0] + snake_direction[0], snake[0][1] + snake_direction[1]))
 
-    # Check for collisions with walls or itself
+   
     if (
         snake[0][0] < 0
         or snake[0][0] >= WIDTH
@@ -56,13 +56,13 @@ while running:
     ):
         running = False
 
-    # Check if snake ate the food
+   
     if snake[0] == food:
         food = (random.randrange(0, WIDTH, SNAKE_SIZE), random.randrange(0, HEIGHT, SNAKE_SIZE))
     else:
         snake.pop()
 
-    # Draw everything
+    
     window.fill(WHITE)
     for segment in snake:
         pygame.draw.rect(window, GREEN, (segment[0], segment[1], SNAKE_SIZE, SNAKE_SIZE))

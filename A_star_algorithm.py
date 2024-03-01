@@ -4,9 +4,9 @@ class Node:
     def __init__(self, position, parent=None):
         self.position = position
         self.parent = parent
-        self.g = 0  # cost from start node to current node
-        self.h = 0  # heuristic cost from current node to goal node
-        self.f = 0  # total cost (g + h)
+        self.g = 0  
+        self.h = 0  
+        self.f = 0  #  total cost of (g + h)
 
     def __lt__(self, other):
         return self.f < other.f
@@ -52,9 +52,9 @@ def astar(maze, start, end):
             if neighbor not in open_set:
                 heapq.heappush(open_set, neighbor)
 
-    return None  # No path found
+    return None  # no path found 
 
-# Example usage:
+#Example
 maze = [
     [0, 0, 0, 0, 0],
     [0, 1, 1, 0, 0],
