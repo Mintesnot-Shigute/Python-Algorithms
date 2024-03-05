@@ -78,7 +78,7 @@ while count < 3:
 		print('------------------------')
 		count += 1
 	
-# in case of a valid pin- continuing, or exiting
+# in case of a valid pin- continuing, or 
 if count == 3:
 	print('-----------------------------------')
 	print('***********************************')
