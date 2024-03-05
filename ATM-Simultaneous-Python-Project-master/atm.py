@@ -27,7 +27,7 @@ while True:
 		print('****************')
 		print('----------------')
 
-# comparing
+
 while count < 3:
 	print('------------------')
 	print('******************')
