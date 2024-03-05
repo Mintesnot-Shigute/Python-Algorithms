@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/pytho
 import getpass
 import string
 import os
