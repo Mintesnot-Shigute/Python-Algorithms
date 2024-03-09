@@ -3,7 +3,7 @@ import sqlite3
 import tkinter.ttk as ttk
 import tkinter.messagebox as tkMessageBox
 
-#DEVE
+
 root = Tk()
 root.title("Contact List")
 width = 700
