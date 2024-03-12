@@ -1,4 +1,4 @@
-#!/usr/bin/en
+#!/usr/bin/e
 from __future__ import absolute_import
 
 from .__init__ import main
