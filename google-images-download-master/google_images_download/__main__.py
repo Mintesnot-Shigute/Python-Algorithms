@@ -1,4 +1,4 @@
-#!/usr
+#!/us
 from __future__ import absolute_import
 
 from .__init__ import main
