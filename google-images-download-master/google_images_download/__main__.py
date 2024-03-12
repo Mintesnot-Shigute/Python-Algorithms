@@ -1,4 +1,4 @@
-#!/usr/bin/env p
+#!/usr/bin/env 
 from __future__ import absolute_import
 
 from .__init__ import main
