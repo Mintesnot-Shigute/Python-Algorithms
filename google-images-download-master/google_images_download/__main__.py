@@ -1,4 +1,4 @@
-#!/usr/bin/env pyt
+#!/usr/bin/env py
 from __future__ import absolute_import
 
 from .__init__ import main
