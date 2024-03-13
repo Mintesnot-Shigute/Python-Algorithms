@@ -10,7 +10,7 @@ here = path.abspath(path.dirname(__file__))
 with open('README.rst', encoding='utf-8') as f:
     long_description = f.read()
 
-# get the 
+# get 
 with open(path.join(here, 'requirements.txt'), encoding='utf-8') as f:
     all_reqs = f.read().split('\n')
 
