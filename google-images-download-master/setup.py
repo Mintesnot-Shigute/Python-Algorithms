@@ -6,7 +6,7 @@ __version__ = '2.8.0'
 
 here = path.abspath(path.dirname(__file__))
 
-# Get the long description
+# Get the long 
 with open('README.rst', encoding='utf-8') as f:
     long_description = f.read()
 
