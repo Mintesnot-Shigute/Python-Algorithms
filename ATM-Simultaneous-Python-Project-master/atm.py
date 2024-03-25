@@ -110,7 +110,7 @@ while True:
 	valid_responses = ['s', 'w', 'l', 'p', 'q']
 	response = response.lower()
 	if response == 's':
-		print('---------------------------------------------')
+		print('--------------------------------------------')
 		print('*********************************************')
 		print(str.capitalize(users[n]), 'YOU HAVE ', amounts[n],'EURO ON YOUR ACCOUNT.')
 		print('*********************************************')
