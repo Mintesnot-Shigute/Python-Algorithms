@@ -21,7 +21,7 @@ while True:
 			n = 2
 		break
 	else:
-		print('----------------')
+		print('---------------')
 		print('****************')
 		print('INVALID USERNAME')
 		print('****************')
