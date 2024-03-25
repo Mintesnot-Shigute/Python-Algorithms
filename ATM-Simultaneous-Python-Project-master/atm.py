@@ -85,7 +85,7 @@ if count == 3:
 	print('3 UNSUCCESFUL PIN ATTEMPTS, EXITING')
 	print('!!!!!YOUR CARD HAS BEEN LOCKED!!!!!')
 	print('***********************************')
-	print('-----------------------------------')
+	print('----------------------------------')
 	exit()
 
 print('-------------------------')
