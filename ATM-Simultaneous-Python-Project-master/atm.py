@@ -102,7 +102,7 @@ print('----------ATM SYSTEM-----------')
 # Main menu
 while True:
 	#os.system('clear')
-	print('-------------------------------')
+	print('------------------------------')
 	print('*******************************')
 	response = input('SELECT FROM FOLLOWING OPTIONS: \nStatement__(S) \nWithdraw___(W) \nLodgement__(L)  \nChange PIN_(P)  \nQuit_______(Q) \n: ').lower()
 	print('*******************************')
