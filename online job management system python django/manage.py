@@ -1,4 +1,4 @@
-#!/usr/bin/env p
+#!/usr/bin/env
 import os
 import sys
 
