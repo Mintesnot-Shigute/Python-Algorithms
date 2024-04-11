@@ -33,7 +33,7 @@ while count < 3:
 	print('******************')
 	pin = str(getpass.getpass('PLEASE ENTER PIN: '))
 	print('******************')
-	print('-----------------')
+	print('----------------')
 	if pin.isdigit():
 		if user == 'user1':
 			if pin == pins[0]:
