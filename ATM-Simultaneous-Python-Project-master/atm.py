@@ -80,7 +80,7 @@ while count < 3:
 	
 
 if count == 3:
-	print('-----------------------------------')
+	print('----------------------------------')
 	print('***********************************')
 	print('3 UNSUCCESFUL PIN ATTEMPTS, EXITING')
 	print('!!!!!YOUR CARD HAS BEEN LOCKED!!!!!')
