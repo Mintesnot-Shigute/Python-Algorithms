@@ -8,7 +8,7 @@ class Canvas:
         self.window.connect("destroy", gtk.main_quit)
         self.window.set_title(title)
         self.window.set_size_request(width,height)
-        # Create a Fixed Cont
+        # Create a Fixed 
         self.fixed = gtk.Fixed()
         self.window.add(self.fixed)
         self.fixed.show()
