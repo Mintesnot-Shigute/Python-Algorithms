@@ -1,6 +1,5 @@
 import gtk
 
-y
 
 class Canvas:
     def __init__(self, id, title,width,height):
