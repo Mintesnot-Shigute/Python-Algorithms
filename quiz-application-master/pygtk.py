@@ -1,6 +1,6 @@
 import gtk
 
-p
+yyyyyy
 
 class Canvas:
     def __init__(self, id, title,width,height):
