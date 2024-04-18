@@ -56,7 +56,7 @@ class DoublyLinkedList:
         print("None")
 
 
-# Example usage:
+
 dll = DoublyLinkedList()
 dll.append(1)
 dll.append(2)
