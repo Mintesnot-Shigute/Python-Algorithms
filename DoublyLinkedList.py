@@ -44,7 +44,7 @@ class DoublyLinkedList:
                 if current_node.next_node:
                     current_node.next_node.prev_node = current_node.prev_node
 
-                return  # Node found and deleted, ex 
+                return  # Node found and deleted, 
 
             current_node = current_node.next_node
 
