@@ -44,7 +44,7 @@ class DoublyLinkedList:
                 if current_node.next_node:
                     current_node.next_node.prev_node = current_node.prev_node
 
-                return  # Node found and deleted, exit the meth
+                return  # Node found and deleted, exit the me
 
             current_node = current_node.next_node
 
