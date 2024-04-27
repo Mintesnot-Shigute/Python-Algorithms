@@ -11,7 +11,7 @@ def binary_search(list, target):
             high = mid - 1
     return -1  # If the element is not found
 
-# Examp
+# Exam
 my_list = [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
 target_element = 18
 
