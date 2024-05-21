@@ -25,7 +25,7 @@ CONTACT = StringVar()
 
 
 
-#=========================METHODS=======================
+#=======================METHODS======================
 
 def Database():
     conn = sqlite3.connect("pythontut.db")
