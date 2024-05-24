@@ -1,7 +1,7 @@
 import turtle
 import random
 
-# Set up the scr
+# Set up the sc
 screen = turtle.Screen()
 screen.title("Two Cars Game")
 screen.bgcolor("white")
