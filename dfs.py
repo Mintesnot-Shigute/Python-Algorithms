@@ -18,7 +18,7 @@ class Graph:
         for neighbor in self.graph[start]:
             if neighbor not in visited:
                 self.dfs(neighbor, visited)
-
+#Example :
 g = Graph()
 g.add_edge(0, 1)
 g.add_edge(0, 2)
