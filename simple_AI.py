@@ -1,4 +1,4 @@
-# Import necessary libraries
+# Import necessary librarie
 from sklearn import datasets
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler, OneHotEncoder
