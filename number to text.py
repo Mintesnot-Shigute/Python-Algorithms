@@ -35,7 +35,7 @@ def number_to_words(number):
     else:
         return "Number out of range (0-9999)"
 
-# Example usage
+# Example usa
 number = int(input("Enter a number (0-9999): "))
 result = number_to_words(number)
 print(f"{number} in words: {result}")
