@@ -3,8 +3,7 @@ import random
 
 password = input("Enter Your Password (Only Numbers): ")
 
-char = string.digits  # Use only digits (numbers 0-9) for the character s
-
+char = string.digits  # Use only digits (numbers 0-9) for the character 
 while True:
     var = random.choices(char, k=len(password))
     print(">>>>", ''.join(var), "<<<<<")
