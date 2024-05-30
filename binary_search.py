@@ -9,7 +9,7 @@ def binary_search(list, target):
             low = mid + 1
         else:
             high = mid - 1
-    return -1  # If the element is not fo
+    return -1  # If the element is not f
 
 
 my_list = [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
