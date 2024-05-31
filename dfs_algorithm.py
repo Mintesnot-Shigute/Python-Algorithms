@@ -15,7 +15,7 @@ def dfs(graph, start, visited=None):
         if neighbor not in visited:
             dfs(graph, neighbor, visited)
 
-# Example 
+# Example
 graph = Graph()
 graph.add_edge(1, [2, 3])
 graph.add_edge(2, [4, 5])
