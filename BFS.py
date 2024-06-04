@@ -14,7 +14,7 @@ def bfs(graph, start):
 
 
 # Example usage:
-# Define a graph as an adjac
+# Define a graph as an adja
 graph = {
     'A': {'B', 'C'},
     'B': {'A', 'D', 'E'},
