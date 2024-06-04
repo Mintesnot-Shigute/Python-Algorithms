@@ -14,7 +14,7 @@ def bfs(graph, start):
 
 
 # Example usage:
-# Define a graph as an ad
+# Define a graph as an a
 graph = {
     'A': {'B', 'C'},
     'B': {'A', 'D', 'E'},
