@@ -14,7 +14,7 @@ def bfs(graph, start):
 
 
 # Example usage:
-# Define a graph as an adjacency list
+# Define a graph as an adjacency lis
 graph = {
     'A': {'B', 'C'},
     'B': {'A', 'D', 'E'},
