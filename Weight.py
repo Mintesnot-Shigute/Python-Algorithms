@@ -7,6 +7,6 @@ for i in range(1, num_questions + 1):
     if response in option_counts:
         option_counts[response] += 1  
 
-# Pri
+# Pr
 for option, count in option_counts.items():
     print(f"Option {option} count: {count}")
