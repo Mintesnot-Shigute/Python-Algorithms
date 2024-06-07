@@ -6,7 +6,7 @@ class Node:
         self.parent = parent
         self.g = 0  
         self.h = 0  
-        self.f = 0  #  total cost of (g +
+        self.f = 0  #  total cost of (g 
 
     def __lt__(self, other):
         return self.f < other.f
