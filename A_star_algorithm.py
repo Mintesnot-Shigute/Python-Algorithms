@@ -6,7 +6,7 @@ class Node:
         self.parent = parent
         self.g = 0  
         self.h = 0  
-        self.f = 0  #  total
+        self.f = 0  #  tota
 
     def __lt__(self, other):
         return self.f < other.f
