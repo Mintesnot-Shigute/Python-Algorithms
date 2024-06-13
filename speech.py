@@ -16,5 +16,5 @@ def speech_to_text():
     except sr.RequestError as e:
         print(f"Error making the request; {e}")
 
-# Ex
+# E
 speech_to_text()
