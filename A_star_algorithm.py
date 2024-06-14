@@ -38,8 +38,7 @@ def astar(maze, start, end):
             while current_node:
                 path.append(current_node.position)
                 current_node = current_node.parent
-            return path[::-1]  # Reverse the path to start from the beginn
-
+            return path[::-1]  # Reverse the path to start from the begin
         neighbors = get_neighbors(current_node)
         for neighbor in neighbors:
             if neighbor.position in closed_set:
