@@ -2,7 +2,7 @@ import pygame
 import sys
 import math
 
-# Initia
+# Initi
 pygame.init()
 
 # Constants
