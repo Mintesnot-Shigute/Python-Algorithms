@@ -62,7 +62,7 @@ dll.append(1)
 dll.append(2)
 dll.append(3)
 dll.prepend(0)
-dll.display()  # Output: 0 <-> 1 <-> 2 <-> 3
+dll.display()  # Output: 0 <-> 1 <-> 2 <-> 
 
 dll.delete(2)
 dll.display()  # Output: 0 <-> 1 <-> 3 <-> None
