@@ -3,7 +3,7 @@ import random
 
 def guess_number():
     print("Welcome to the Number Guessing Game!")
-
+#####
     while True:
         secret_number = random.randint(1, 100)
         attempts = 0
