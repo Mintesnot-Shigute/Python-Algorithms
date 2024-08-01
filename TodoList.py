@@ -13,7 +13,7 @@ class TodoListApp:
         self.priority_var = tk.StringVar()
         self.due_date_var = tk.StringVar()
 
-        # Entry for task i
+        # Entry for task 
         task_label = tk.Label(root, text="Task:")
         task_label.grid(row=0, column=0, padx=5, pady=5)
         self.task_entry = tk.Entry(root, textvariable=self.task_var, width=25)
