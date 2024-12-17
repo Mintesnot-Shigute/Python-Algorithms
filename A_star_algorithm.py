@@ -1,5 +1,5 @@
 import heapq
-#Ex
+#E
 class Node:
     def __init__(self, position, parent=None):
         self.position = position
